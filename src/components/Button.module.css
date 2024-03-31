@@ -1,0 +1,21 @@
+.wrapper {
+    background-color: var(--accent);
+    padding: 0.5rem 0.75rem;
+    border-radius: 3px;
+    color: white;
+    font-weight: 600;
+
+    &:hover {
+        background-color: var(--accent-light);
+        box-shadow: 0 0 3px 0 rebeccapurple;
+    }
+
+    &:active {
+        background-color: var(--accent-dark);
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: var(--focus-ring)
+    }
+}

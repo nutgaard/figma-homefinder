@@ -1,0 +1,20 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+
+    & span {
+        font-weight: 600;
+    }
+    & input {
+        width: 10rem;
+        border: 1px solid lightslategrey;
+        border-radius: 3px;
+        padding: 0.25rem 0.5rem;
+
+        &:focus {
+            outline: none;
+            box-shadow: var(--focus-ring)
+        }
+    }
+
+}

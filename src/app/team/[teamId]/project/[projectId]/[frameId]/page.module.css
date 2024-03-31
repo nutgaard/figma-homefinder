@@ -1,0 +1,12 @@
+.overlay {
+    --color: rgba(25, 120, 14, 0.5);
+
+    fill: var(--color);
+    stroke-width: 6px;
+    stroke: black;
+    cursor: pointer;
+
+    &:hover {
+        fill: color-mix(in lch, var(--color) 90%, white);
+    }
+}
