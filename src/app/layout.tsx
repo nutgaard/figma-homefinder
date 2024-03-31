@@ -4,6 +4,8 @@ import clsx from "clsx";
 import "./globals.css";
 import css from './layout.module.css';
 import Link from "next/link";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -31,6 +33,8 @@ export default function RootLayout({
         <footer>
           <h1>Figma-homefinder</h1>
         </footer>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

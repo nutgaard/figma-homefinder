@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@figma/rest-api-spec": "^0.11.0",
+    "@vercel/analytics": "^1.2.2",
+    "@vercel/speed-insights": "^1.0.10",
     "clsx": "^2.1.0",
     "next": "14.1.4",
     "react": "^18",
