@@ -11,7 +11,7 @@ export default function AppPage() {
     return (
         <form action={action}>
             <Input label="TeamId" className="mb-2" name="teamId" />
-            <Input label="Password" className="mb-2" name="password" />
+            <Input label="Password" type="password" className="mb-2" name="password" />
             <Button disabled={pending}>Login</Button>
             {state?.message && <p className="text-red-600 mt-8">{state?.message}</p>}
         </form>
