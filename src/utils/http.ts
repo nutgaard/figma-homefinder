@@ -18,6 +18,7 @@ async function fetchJson<T>(input: RequestInfo | URL, init?: RequestInit): Promi
             data: json
         }
     } catch (err: unknown) {
+        console.error(err);
         return {
             state: 'failure',
             statusCode: -1,
